@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cardy
 
-## Available Scripts
 
-In the project directory, you can run:
+## What is it?
 
-### `npm start`
+A **Lightweight**, **Interactive** and **Simple** **React Component** that shows the buyer's card basic info as they are filling the checkout form.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**You can try the app :point_right: [here](http://google.com/)** :point_left:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Why ?
+The average **checkout abandonment** over the past ten years has fluctuated between **60 – 80%**. If you are within this range, you should be trying to decrease the rate of abandoned checkouts. A bad checkout abandonment is anything higher than 90%. Even if you fall within the average, you should be trying to optimize for lower abandoned payments.
 
-### `npm test`
+As of this 60-80%, a whole **27% is due the checkout process**:
+* Too complex form
+* Form fields not clear enough
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Cardy** aims to retain the user in the checkout process by adding a non-disruptive interactive feedback to keep their attention and interest in the last step of the e-Commerce cicle.  
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built with :heart: and
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Created By
+**[Gerardo Toledo](https://www.linkedin.com/in/gerardo-toledo/)**
 
-### `npm run eject`
+## Disclaimer
+This is **not** a Credit Card Form Validator. In order to do so, you should trust any competent validator entity, or apply the recommended Regular Expressions to achieve so:
+```js
+const masterCardRegExp = /^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}$/
+const visaRegExp = /^4[0-9]{12}(?:[0-9]{3})?$/
+const americanExpressRegExp = /^3[47][0-9]{13}$/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+More information available at: 
+* [Luhn's Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+* [Credit Card Validation through Regular Expressions](https://www.regular-expressions.info/creditcard.html)
