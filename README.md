@@ -23,3 +23,15 @@ As of this 60-80%, a whole **27% is due the checkout process**:
 
 ## Created By
 **[Gerardo Toledo](https://www.linkedin.com/in/gerardo-toledo/)**
+
+## Disclaimer
+This is **not** a Credit Card Form Validator. In order to do so, you should trust any competent validator entity, or apply the recommended Regular Expressions to achieve so:
+```js
+const masterCardRegExp = /^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}$/
+const visaRegExp = /^4[0-9]{12}(?:[0-9]{3})?$/
+const americanExpressRegExp = /^3[47][0-9]{13}$/
+```
+
+More information available at: 
+* [Luhn's Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+* [Credit Card Validation through Regular Expressions](https://www.regular-expressions.info/creditcard.html)
