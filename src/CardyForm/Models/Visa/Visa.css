@@ -1,0 +1,28 @@
+.card-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-container.visa  {
+   background-color: orange;
+   border-radius: 10px;
+}
+
+.card-container.visa .logo {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.card-container.visa .chip-logo {
+    width: 70%;
+}
+
+.card-container.visa .card-owner, .expiration-date {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.card-number {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
