@@ -1,1 +1,25 @@
-# payment-form
+# Cardy
+
+
+## What is it?
+
+A **Lightweight**, **Interactive** and **Simple** **React Component** that shows the buyer's card basic info as they are filling the checkout form.
+
+**You can try the app :point_right: [here](http://google.com/)** :point_left:
+
+## Why ?
+The average **checkout abandonment** over the past ten years has fluctuated between **60 – 80%**. If you are within this range, you should be trying to decrease the rate of abandoned checkouts. A bad checkout abandonment is anything higher than 90%. Even if you fall within the average, you should be trying to optimize for lower abandoned payments.
+
+As of this 60-80%, a whole **27% is due the checkout process**:
+* Too complex form
+* Form fields not clear enough
+
+**Cardy** aims to retain the user in the checkout process by adding a non-disruptive interactive feedback to keep their attention and interest in the last step of the e-Commerce cicle.  
+
+
+## Built with :heart: and
+
+* React
+
+## Created By
+**[Gerardo Toledo](https://www.linkedin.com/in/gerardo-toledo/)**
